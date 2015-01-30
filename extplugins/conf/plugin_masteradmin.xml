@@ -1,0 +1,24 @@
+<configuration plugin="masteradmin">
+	<settings name="commands">
+		<set name="maprestart">100</set>
+		<set name="fastrestart">100</set>
+		<set name="hardcore">120</set>
+		<set name="gametype">100</set>
+		<set name="killcam">120</set>
+		<set name="ff">120</set>
+		<set name="spectate">120</set>
+		<set name="mag">100</set>
+		<set name="setpassword">120</set>
+		<set name="restorepassword">120</set>
+		<set name="removepassword">80</set>
+		<set name="getpassword">20</set>
+	</settings>
+	<settings name="settings">
+		<!-- 12 characters max! -->
+		<!-- <set name="defaultpassword">1234</set> -->
+		
+		<!-- true: password gets reset after each mapchange -->
+		<!-- false: password stays until B3 / server is rebooted -->
+		<set name="autoprune">true</set>
+	</settings>
+</configuration>
